@@ -1,9 +1,9 @@
 package org.tikv.cdc;
 
 import org.apache.flink.shaded.guava31.com.google.common.collect.Range;
-import com.lakala.cdc.connectors.tidb.schema.TiTableMetadata;
-import com.lakala.cdc.connectors.tidb.source.config.TiDBSourceConfig;
-import com.lakala.cdc.connectors.tidb.utils.TableKeyRangeUtils;
+import org.jdkxx.cdc.connectors.tidb.schema.TiTableMetadata;
+import org.jdkxx.cdc.connectors.tidb.source.config.TiDBSourceConfig;
+import org.jdkxx.cdc.connectors.tidb.utils.TableKeyRangeUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.flink.api.connector.source.SourceReaderContext;
 import org.apache.flink.util.Preconditions;

@@ -1,6 +1,6 @@
 package org.tikv.common.codec;
 
-import com.lakala.cdc.connectors.tidb.schema.TiTableMetadata;
+import org.jdkxx.cdc.connectors.tidb.schema.TiTableMetadata;
 import org.jdkxx.cdc.schema.metadata.ColumnMetadata;
 import org.tikv.common.types.DataType;
 import org.tikv.common.types.DataTypeFactory;

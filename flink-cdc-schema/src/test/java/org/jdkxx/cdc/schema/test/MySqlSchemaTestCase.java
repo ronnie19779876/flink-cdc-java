@@ -18,8 +18,8 @@ public class MySqlSchemaTestCase {
         Configuration configuration = new Configuration();
         configuration.set(SourceOptions.HOSTNAME, "www.jdkxx.org");
         configuration.set(SourceOptions.PORT, 23306);
-        configuration.set(SourceOptions.USERNAME, "dbadmin");
-        configuration.set(SourceOptions.PASSWORD, "vip1977");
+        configuration.set(SourceOptions.USERNAME, "");
+        configuration.set(SourceOptions.PASSWORD, "");
         configuration.set(SourceOptions.DATABASE, "dtsdb");
         configuration.set(SourceOptions.TABLE_LIST, Arrays.asList("employees", "mysql_type_fields"));
 

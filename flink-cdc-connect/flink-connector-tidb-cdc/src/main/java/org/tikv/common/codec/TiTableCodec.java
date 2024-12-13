@@ -1,6 +1,6 @@
 package org.tikv.common.codec;
 
-import com.lakala.cdc.connectors.tidb.schema.TiTableMetadata;
+import org.jdkxx.cdc.connectors.tidb.schema.TiTableMetadata;
 import org.tikv.common.exception.CodecException;
 
 public class TiTableCodec {
